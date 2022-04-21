@@ -61,6 +61,7 @@ $mail->AddAddress($email_contacto);//destinatario
 $mail->AddCC($mail_envia);//destinatario que va a recibir copia de correo
 $mail->AddBCC("ivan.ormeno@aplusajustadores.cl");//destinatario que va a recibir el correo
 $mail->AddBCC("cristopher.videla@aplusajustadores.cl");//destinatario que va a recibir el correo
+$mail->AddBCC("asistenteoperaciones@aplusajustadores.cl");//destinatario que va a recibir el correo
 //$mail_1=$mail_envia;
 
 if($division_mail=="6") { 
